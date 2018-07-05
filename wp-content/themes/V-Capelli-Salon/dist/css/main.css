@@ -1,0 +1,29 @@
+body {
+  background-image: url(/wp-content/uploads/2018/07/body-bg.jpg);
+  background-color: #361c0a;
+  background-position: top center;
+  background-repeat: no-repeat; }
+  body .wrapper {
+    max-width: 60%;
+    margin: 0 auto; }
+  body .logo {
+    background-repeat: no-repeat;
+    max-width: 284px; }
+
+body .header-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between; }
+  body .header-wrapper .main-nav {
+    margin-top: 80px; }
+    body .header-wrapper .main-nav ul {
+      display: inline-flex;
+      position: relative;
+      margin-bottom: auto; }
+      body .header-wrapper .main-nav ul li {
+        padding: 0  10px; }
+        body .header-wrapper .main-nav ul li a {
+          color: #fcd6bf;
+          text-decoration: none; }
+        body .header-wrapper .main-nav ul li .active {
+          border-bottom: 1px solid #fcd6bf; }

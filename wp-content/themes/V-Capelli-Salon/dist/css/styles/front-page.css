@@ -1,0 +1,11 @@
+body {
+  background-image: url(/wp-content/uploads/2018/07/body-bg.jpg);
+  background-color: #361c0a;
+  background-position: top center;
+  background-repeat: no-repeat; }
+  body .wrapper {
+    max-width: 60%;
+    margin: 0 auto; }
+  body .logo {
+    background-repeat: no-repeat;
+    max-width: 284px; }
