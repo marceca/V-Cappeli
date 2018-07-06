@@ -1,31 +1,28 @@
-$(function(){
-    $('#menu-main-navigation li a').click(function(){
-        $('#menu-main-navigation li a').removeClass('active'); // remove the class from the currently selected
-        $(this).addClass('active'); // add the class to the newly clicked link
-    });
-});
-
+//Add underline in nav according to page you are on
 $(function() {
     var loc = window.location.href; // returns the full URL
     var is_root = location.pathname == "/";
     if(is_root) {
         let val = $('#menu-main-navigation li a').html()
-        console.log(val)
         if(val === 'Home') {
             let x = $('#menu-main-navigation li a:contains("Home")')
-            console.log(x)
+            x.addClass('active')
         }
     }
-    if(/the-salon/.test(loc)) {
-        alert('the salon')
-    }
     if(/services/.test(loc)) {
-        alert('serve')
+        let x = $('#menu-main-navigation li a:contains("Services")')
+        x.addClass('active')
+    }
+    if(/the-salon/.test(loc)) {
+        let x = $('#menu-main-navigation li a:contains("The Salon")')
+        x.addClass('active')
     }
     if(/gallery/.test(loc)) {
-        alert('gallery')
+        let x = $('#menu-main-navigation li a:contains("Gallery")')
+        x.addClass('active')
     }
     if(/contact/.test(loc)) {
-        alert('contact')
+        let x = $('#menu-main-navigation li a:contains("Contact")')     
+        x.addClass('active')
     }
 });

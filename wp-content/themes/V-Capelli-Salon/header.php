@@ -17,7 +17,7 @@
 <div id="wrapper" class="hfeed wrapper">
     <header id="header" role="banner">
     <section id="branding" class="header-wrapper">
-        <img class="logo" src="/wp-content/themes/V-Capelli-Salon/assets/images/v-capelli-logo.png">
+        <img class="logo" src="/wp-content/themes/V-Capelli-Salon/assets/images/front-page/v-capelli-logo.png">
         <nav id="menu" role="navigation" class="main-nav">
             <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
         </nav>

@@ -3,13 +3,73 @@ body {
     background-color: #361c0a;
     background-position: top center;
     background-repeat: no-repeat;
-    .wrapper {
-        max-width: 60%;
-        margin: 0 auto;
-    }
-
     .logo {
         background-repeat: no-repeat;
         max-width: 284px;
+    }
+    .wrapper {
+        max-width: 60%;
+        margin: 0 auto;
+        .main-slideshow {
+            border: 10px solid #864925;
+            background-image: url('/wp-content/themes/V-Capelli-Salon/assets/images/homepage_slider_bg.png')
+        }
+        .browse-gallery {
+            height: 100px;
+            overflow: hidden;
+            img:hover {
+                position: relative;
+                bottom: 91px;
+            }
+        }
+        .view-products {
+        height: 90px;
+        overflow: hidden;
+            img:hover {
+                position: relative;
+                bottom: 91px;
+            }
+        }
+        .meet-the-team {
+            height: 100px;
+            overflow: hidden;
+            img:hover {
+                position: relative;
+                bottom: 91px;
+            }
+        }
+        .recent-styles {
+            background-color: #482913;
+            padding: 30px;
+            &--header {
+                background-image: url('/wp-content/themes/V-Capelli-Salon/assets/images/front-page/recent_styles_header.gif');
+                background-repeat: no-repeat;
+                background-size: cover;
+                text-align: center;
+                padding: 15px 0;
+            }
+            &--gallery {
+                background-color: white;
+                img {
+                    max-width: 75px;
+                    height: auto;
+                }
+            }
+            &--link {
+                background-color: white;
+                padding: 15px 0;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            img {
+                margin: 0 auto;
+            }
+            h3 {
+                font-size: 24px;
+            }
+        }
     }
 }

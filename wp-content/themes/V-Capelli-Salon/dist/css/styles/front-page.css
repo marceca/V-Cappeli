@@ -3,9 +3,55 @@ body {
   background-color: #361c0a;
   background-position: top center;
   background-repeat: no-repeat; }
-  body .wrapper {
-    max-width: 60%;
-    margin: 0 auto; }
   body .logo {
     background-repeat: no-repeat;
     max-width: 284px; }
+  body .wrapper {
+    max-width: 60%;
+    margin: 0 auto; }
+    body .wrapper .main-slideshow {
+      border: 10px solid #864925;
+      background-image: url("/wp-content/themes/V-Capelli-Salon/assets/images/homepage_slider_bg.png"); }
+    body .wrapper .browse-gallery {
+      height: 100px;
+      overflow: hidden; }
+      body .wrapper .browse-gallery img:hover {
+        position: relative;
+        bottom: 91px; }
+    body .wrapper .view-products {
+      height: 90px;
+      overflow: hidden; }
+      body .wrapper .view-products img:hover {
+        position: relative;
+        bottom: 91px; }
+    body .wrapper .meet-the-team {
+      height: 100px;
+      overflow: hidden; }
+      body .wrapper .meet-the-team img:hover {
+        position: relative;
+        bottom: 91px; }
+    body .wrapper .recent-styles {
+      background-color: #482913;
+      padding: 30px; }
+      body .wrapper .recent-styles--header {
+        background-image: url("/wp-content/themes/V-Capelli-Salon/assets/images/front-page/recent_styles_header.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 15px 0; }
+      body .wrapper .recent-styles--gallery {
+        background-color: white; }
+        body .wrapper .recent-styles--gallery img {
+          max-width: 75px;
+          height: auto; }
+      body .wrapper .recent-styles--link {
+        background-color: white;
+        padding: 15px 0;
+        text-align: center; }
+        body .wrapper .recent-styles--link a {
+          text-decoration: none;
+          color: black; }
+      body .wrapper .recent-styles img {
+        margin: 0 auto; }
+      body .wrapper .recent-styles h3 {
+        font-size: 24px; }
