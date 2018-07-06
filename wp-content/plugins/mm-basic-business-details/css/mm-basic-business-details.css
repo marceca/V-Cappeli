@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 300px;
+}
+.basic-business-hours-table input {
+    float: right;
+}
+
+.basic-business-hours-table .float-left {
+    float: left;
+}
