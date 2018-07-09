@@ -74,3 +74,22 @@ body .header-wrapper {
           text-decoration: none; }
         body .header-wrapper .main-nav ul li .active {
           border-bottom: 1px solid #fcd6bf; }
+
+.basic_information_main_header {
+  color: #b17247;
+  text-shadow: 0 1px 1px #4b3220;
+  font: bold 18px "Helvetica Neue",Arial;
+  text-transform: none;
+  border-bottom: 1px solid #4b3220;
+  margin-bottom: 1em; }
+
+.basic_information_header {
+  color: #e1ccbe; }
+  .basic_information_header span {
+    font: bold 18px "Helvetica Neue",Arial;
+    text-transform: none;
+    border-bottom: 1px solid #4b3220;
+    margin-bottom: 1em; }
+
+.basic_information_sub_header {
+  color: #e1ccbe; }

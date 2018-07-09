@@ -157,4 +157,26 @@ function my_plugin_options() {
 
 <?php
 }
+
+add_shortcode( 'basic_business_details_shortcode', 'basic_business_details_shortcode' );
+function basic_business_details_shortcode() { ?>
+    <div class="wrapper">
+        <h1 class="basic_information_main_header">Vist V Capelli</h1>
+        </br>
+        <div>
+            <h2 class="basic_information_header"><span>Address:</span> <?php $address_sc = get_option('basic_info_address');  echo $address_sc; ?></h2></br>
+            <h2 class="basic_information_header"><span>Phone Number:</span> <?php $phone_number_sc = get_option('basic_info_phone_number');  echo $phone_number_sc;?></h2></br>
+            <h2 class="basic_information_header"><span>Hours</span> </h2>
+            <div class="basic_information_sub_header">Sunday: <?php $sunday_sc = get_option('basic_info_sunday');  echo $sunday_sc;?></div>
+            <div class="basic_information_sub_header">Monday: <?php $monday_sc = get_option('basic_info_monday');  echo $monday_sc;?></div>
+            <div class="basic_information_sub_header">Tuesday: <?php $tuesday_sc = get_option('basic_info_tuesday');  echo $tuesday_sc;?></div>
+            <div class="basic_information_sub_header">Wednesday: <?php $wednesday_sc = get_option('basic_info_wednesday');  echo $wednesday_sc;?></div>
+            <div class="basic_information_sub_header">Thursday: <?php $thursday_sc = get_option('basic_info_thursday');  echo $thursday_sc;?></div>
+            <div class="basic_information_sub_header">Friday: <?php $friday_sc = get_option('basic_info_friday');  echo $friday_sc;?></div>
+            <div class="basic_information_sub_header">Satruday: <?php $saturday_sc = get_option('basic_info_saturday');  echo $saturday_sc;?></div>
+        </div>
+    </div>
+
+<?php
+}
 ?>
