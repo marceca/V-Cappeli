@@ -16,11 +16,11 @@ add_action( 'admin_menu', 'basic_business_details' );
 
 /** Step 1. */
 function basic_business_details() {
-	add_theme_page( 'My Plugin Theme', 'Basic Business Details', 'manage_options', 'Basic-Business-Details', 'my_plugin_options' );
+	add_theme_page( 'Basic Business Details', 'Basic Business Details', 'manage_options', 'Basic-Business-Details', 'basic_business_plugin' );
 }
 
 /** Step 3. */
-function my_plugin_options() {
+function basic_business_plugin() {
 	if ( !current_user_can( 'manage_options' ) )  {
 		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
     }
